@@ -16,9 +16,6 @@ public class BodyMassIndex {
 		double i = bmiData.get(0);
 		i = (double) Math.round(i * 100) / 100;
 		System.out.println(i);
-		
-		
-		
 	}
 
 	public void BMI_Category() {
@@ -28,6 +25,7 @@ public class BodyMassIndex {
 		 * Overweight = 25–29.9 
 		 * Obesity >= 30
 		 */
+		
 		double i = bmiData.get(0);
 		
 		if(i <= 18.5) 
@@ -41,8 +39,6 @@ public class BodyMassIndex {
 		
 		
 	}
-	
-	
 }
 
 
