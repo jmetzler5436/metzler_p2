@@ -95,7 +95,7 @@ public class App {
 	}
 	
 	private static void displayBmiStatistics(ArrayList<BodyMassIndex> bmiData) {
-		double total, average, hold = 0;
+		double total = 0, average = 0, hold = 0;
 		int i;
 		
 		for(i=0; i<20; i++) {
